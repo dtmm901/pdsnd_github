@@ -32,7 +32,7 @@ def get_filters():
         try:
             month = input('\nEnter month name in full, e.g. May or \'all\' for \
             no month filter:\n').lower()
-            if month.lower() not in ('january', 'february', 'march', 'april',
+            if month not in ('january', 'february', 'march', 'april',
             'may', 'june', 'all'):
                 raise NameError
             break
