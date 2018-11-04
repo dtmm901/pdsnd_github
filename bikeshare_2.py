@@ -21,7 +21,7 @@ def get_filters():
         try:
             city = input('\nEnter one of the following city name: Chicago, New\
             York City or Washington:\n').lower()
-            if city.lower() not in ('chicago', 'new york city', 'washington'):
+            if city not in ('chicago', 'new york city', 'washington'):
                 raise NameError
             break
         except:
@@ -32,7 +32,7 @@ def get_filters():
         try:
             month = input('\nEnter month name in full, e.g. May or \'all\' for \
             no month filter:\n').lower()
-            if month.lower() not in ('january', 'february', 'march', 'april',
+            if month not in ('january', 'february', 'march', 'april',
             'may', 'june', 'all'):
                 raise NameError
             break
