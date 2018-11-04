@@ -2,7 +2,7 @@
 *4 Nov 2018*
 
 ### Project Title
-Bike Share Data
+**Bike Share Data**
 
 ### Description
 Use data provided by Motivate, a bike share system provider for many major cities
