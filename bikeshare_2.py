@@ -21,7 +21,7 @@ def get_filters():
         try:
             city = input('\nEnter one of the following city name: Chicago, New\
             York City or Washington:\n').lower()
-            if city.lower() not in ('chicago', 'new york city', 'washington'):
+            if city not in ('chicago', 'new york city', 'washington'):
                 raise NameError
             break
         except:
